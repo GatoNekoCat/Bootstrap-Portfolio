@@ -14,8 +14,12 @@
 body {
     background-image: url("assets\images\connectwork.png");
 }
-img{
+img .logoimg{
     width: 250px;
     height: 250px;
+    margin: auto;
 
+}
+.container-fluid footer{
+    background-color:#666;
 }
