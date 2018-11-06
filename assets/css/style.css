@@ -11,15 +11,30 @@
     text-decoration: none;
     background: #4aaaa5;
 }
-body {
+html {
     background-image: url("assets\images\connectwork.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
-img .logoimg{
+/* #catPicture{
     width: 250px;
     height: 250px;
     margin: auto;
 
-}
+} */
 .container-fluid footer{
     background-color:#666;
 }
+#main-content{
+    max-width: 980px;
+}
+/* html { 
+    background: url("") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    } */
