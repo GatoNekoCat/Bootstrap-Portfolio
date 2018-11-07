@@ -1,4 +1,4 @@
-/* .navbar-brand {
+.navbar-brand {
     float: left;
     width: 250px;
     height: 90px;
@@ -13,7 +13,7 @@
 }
 .container-fluid footer{
     background-color:#666;
-} */
+}
 /* Found a narrow jumbotron example at https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/#
     Going to be trying the CSS found within that file  */
 /* This spaces out the content */
@@ -25,4 +25,56 @@ body {
 .header, .marketing, .footer{
     padding-right: 1rem;
     padding-left: 1rem;
+}
+.header { 
+    padding-bottom: 1rem;
+    border-bottom: .05rem solid #fff;
+
+}
+/* Make the masthead the same height as the navigation */
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height:3rem;
+}
+ 
+/* Custom page footer */
+.footer{
+    padding-top: 1.5rem;
+    color: #666;
+    border-top: .05rem solid #fff;
+
+}
+/* Custom container */
+@media (min-width: 980px) {
+    .container {
+        max-width: 980px;
+    }
+}
+.container-narrow > hr {
+      margin: 2rem 0;                                                                                                                                                                                              
+}
+
+/* About me section with paragraph */
+.jumbotron {
+    text-align: center;
+    border-bottom: .05rem solid #e5e5e5;
+}
+/* 780 responsive */
+@media screen and (min-width: 780px) {
+    .header,
+    .footer{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    /* space out the masthead */
+    .header {
+        margin-bottom: 2rem;
+    }
+    /* Remove bottom border of jumbotron */
+    .jumbotron {
+        border-bottom: 0;
+    }
+
+
 }
