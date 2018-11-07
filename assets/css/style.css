@@ -19,6 +19,7 @@ html {
     background-size: cover;
 
 }
+
 /* #catPicture{
     width: 250px;
     height: 250px;
@@ -30,6 +31,7 @@ html {
 }
 #main-content{
     max-width: 980px;
+    margin-left: 20px;
 }
 /* html { 
     background: url("") no-repeat center center fixed; 
