@@ -1,4 +1,4 @@
-.navbar-brand {
+/* .navbar-brand {
     float: left;
     width: 250px;
     height: 90px;
@@ -11,32 +11,18 @@
     text-decoration: none;
     background: #4aaaa5;
 }
-html {
-    background-image: url("assets\images\connectwork.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-}
-
-/* #catPicture{
-    width: 250px;
-    height: 250px;
-    margin: auto;
-
-} */
 .container-fluid footer{
     background-color:#666;
+} */
+/* Found a narrow jumbotron example at https://v4-alpha.getbootstrap.com/examples/narrow-jumbotron/#
+    Going to be trying the CSS found within that file  */
+/* This spaces out the content */
+body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 }
-#main-content{
-    max-width: 980px;
-    margin-left: 20px;
+/* Everything but the jumbotron gets side spacing */
+.header, .marketing, .footer{
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
-/* html { 
-    background: url("") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    } */
